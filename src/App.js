@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './Header';
+import LandingPage from './LandingPage';
 
 function App() {
   return (
     <div className="app">
-      <h1>new</h1>
-      {/* Header */}
+
+      <Header />
+      <LandingPage />
       {/* Home */}
 
     </div>
